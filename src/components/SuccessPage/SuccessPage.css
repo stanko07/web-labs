@@ -1,0 +1,46 @@
+.success-page {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.go-to-catalog-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.go-to-catalog-button:hover {
+    background-color: #45a049;
+}
+
+
+.success-page {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.success-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.go-to-catalog-button {
+    background-color: #40C057; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.go-to-catalog-button:hover {
+    background-color: #36a84b;
+}

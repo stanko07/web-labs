@@ -1,0 +1,44 @@
+.home {
+    background-image: url('../../icons/row-fresh-beautiful-roses.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__text-box{
+    padding-right: 2em;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paragraphe {
+    color: #ddd;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.browse-button {
+    padding: 10px 20px;
+    background-color: #45a049;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
