@@ -1,0 +1,27 @@
+.product-list {
+    display: grid;
+    padding-left: 12em;
+    padding-right: 10em;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+.button-container {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.view-more-button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.view-more-button:hover {
+    background-color: green;
+    
+}
