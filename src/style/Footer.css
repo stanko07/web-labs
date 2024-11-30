@@ -1,0 +1,89 @@
+.footer {
+    background-color: rgb(0, 109, 91);
+    color: white;
+    padding: 40px 20px; 
+    position: relative;
+}
+.contacts{
+    color: #EEE;
+    font-family: "Noto Serif";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-container {
+    display: flex;
+    padding-left: 17.5em;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px; 
+    margin: 0 auto; 
+}
+
+.footer-section {
+    flex: 1; 
+}
+
+.contact-info h3 {
+    font-family: "Noto Serif", serif; 
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0; 
+}
+.footer-links{
+    padding-left: 5em;
+}
+
+.footer-links p {
+    cursor: pointer;
+    transition: color 0.3s ease;  }
+
+.footer-links p:hover {
+    color: #f7b5d5;
+}
+.order-btn{
+    padding-left: 2em;
+}
+.order-btn button {
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn button:hover {
+    background-color: #d0d0d0;
+}
+
+
+
+
+.footer-section .order-btn{
+    display: flex;
+    width: 360px;
+    padding: 26px 45px;
+    justify-content: center;
+    align-items: flex-start;    
+    gap: 10px;
+
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .order-btn {
+    margin-top: 20px;
+    }
+}
+
+

@@ -1,0 +1,104 @@
+.flower-shop {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 40px 80px; 
+    max-width: 1400px; 
+    margin: 0 auto;
+}
+
+.about-section, .fresh-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 80px; 
+}
+
+.about-section .about-text, .fresh-section .fresh-text {
+    flex: 1;
+    padding-left: 60px; 
+    padding-right: 60px; 
+    box-sizing:border-box;
+}
+
+.about-section .about-image, .fresh-section .fresh-image {
+    flex: 1;
+    max-width: 30%; 
+}
+
+.about-image img, .fresh-image img {
+    width: 92%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.about-text {
+    position: relative;
+    padding-right: 30px;
+}
+
+.about-text h2 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px; 
+    padding-right: 20px;
+    font-size: 2rem; 
+}
+
+.about-text h2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 2px; 
+    background-color: #000; 
+}
+
+
+.fresh-text h2 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 2rem; 
+}
+
+.fresh-text h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px; 
+    width: 50px; 
+    background-color: #000; 
+}
+
+
+h2 {
+    font-family: "Noto Serif";
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .about-section, .fresh-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image, .fresh-image {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-text, .fresh-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
