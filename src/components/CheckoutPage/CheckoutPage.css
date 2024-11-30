@@ -1,0 +1,72 @@
+.checkout-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-field:focus {
+    border-color: #40c057;
+    outline: none;
+}
+
+.submit-button {
+    background-color: #40c057;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #36a84b;
+    transform: translateY(-2px);
+}
+
+.submit-button:disabled {
+    background-color: #adb5bd;
+    cursor: not-allowed;
+}
+
+/* Стиль для помилок */
+.error {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+}
