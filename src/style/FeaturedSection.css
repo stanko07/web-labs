@@ -1,0 +1,46 @@
+.featured-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.featured-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-all {
+    text-decoration: none;
+    padding-right: 3em;
+    color: #004F44;
+    font-family: "Noto Serif", serif; 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.scroll-arrow {
+    background-color: #f9f9f9;
+    color: #006d5b;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 140%;
+    transform: translateY(-50%);
+}
+
+.featured{
+padding-left: 6em;
+color: #004F44;
+font-family: "Noto Serif", serif; 
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.5px;
+}
